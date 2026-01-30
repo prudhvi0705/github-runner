@@ -8,7 +8,7 @@ variable "environment" {
 
 variable "zone_name" {
   type        = string
-  default     = "daws86s.fun"
+  default     = "prudhvii.fun"
   description = "description"
 }
 
