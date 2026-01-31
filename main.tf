@@ -1,7 +1,7 @@
 
 
 resource "aws_instance" "runner" {
-  count = 2
+  # count = 2
   ami           = local.ami_id
   instance_type = "t3.small"
   vpc_security_group_ids = [aws_security_group.main.id]
